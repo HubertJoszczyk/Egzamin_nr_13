@@ -1,0 +1,9 @@
+Zapytanie 1:SELECT imie,nazwisko,opis,zdjecie from osoby where hobby_id in (1,2,6);
+Zapytanie 2:SELECT osoby.id, osoby.nazwisko hobby.nazwa from osoby,hobby where osoby.hobby_id=hobby.id and osoby.rok_urodzenia>2000; 
+Zapytanie 3:SELECT id,zdjecie from osoby where imie like 'Monika' LIMIT 5;
+Zapytanie 4:CREATE table 'wpisy'{
+    'id' int unsigned not null autoincrement;
+    'wpis' text not null;
+    'uzytkownik_id' int unsigned not null; 
+    primary key('id');
+}

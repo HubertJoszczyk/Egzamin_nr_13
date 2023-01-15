@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+    background-color: #005B4F;
+}
+#main{
+    overflow: scroll;
+    height: 400px;
+    padding: 20px;
+    background-color: #E1E2E1;
+}
+#stopka{
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    background-color: #005B4F;
+    float: left;
+}
+#zdjecie{
+    width: 20%;
+}
+#linia{
+    clear: both;
+}
+#opis{
+    float: left;
+}
+img{
+    padding: 20px;
+    border-radius: 100%;
+}
+h2{
+    text-align: center;
+    background-color: #00897B;
+}
+a{
+    color: white;
+}
